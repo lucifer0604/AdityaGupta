@@ -1,0 +1,182 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+
+ul{list-style: none;}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1
+{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.extra-div h6{
+    font-size: 0.9rem;
+    max-width: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #66BFBF;
+    background-size: 100% 100%;
+    clip-path: polygon(100% 0%,100% 77%,50% 100%,0% 75%,0 0);
+    position: relative;
+}
+.nav-item a{
+    color: white;
+    font-weight: bolder;
+}
+
+.header-section
+{
+    width: 100%;
+    height: inherit;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.center-div
+{
+    font-family: 'Rakkas', cursive;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.profile-pic
+{
+    width: 150px;
+    border-radius: 100%;
+}
+.section-heading
+{
+    font-family: 'Audiowide', cursive;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.about-header
+{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+.about-section
+{
+    background: url(../images/background_image.jpg) no-repeat left;
+    background-size: 55%;
+    background-color: #f1f1f1;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-container
+{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 50px;
+}
+
+.skills-section
+{
+    min-height: 100vh;
+    background: #ECFBFC;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+.extra-div
+{
+    
+    background: white;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 2rem;
+    transition: 0.3s;
+    text-decoration: wavy;
+}
+.extra-div:hover
+{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+.contact-section
+{
+    background: url(../images/bg-contact.jpg);
+    background-size: 100% 100%;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+   
+}
+.center-contact-section
+{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+}
+.mail-contact
+{
+    padding: 40px 0 0 20px;
+    font-weight: bolder;
+}
+.emailId
+{
+    font-family: 'Rakkas', cursive;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+footer{
+    text-align: center;
+    background: #66BFBF;
+    padding: 15px;
+}
+@media screen and (max-width:1200px)
+{
+    .inner-container
+    {
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px)
+{
+    .about-section
+    {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container
+    {
+       width: 100%;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .about-section
+    {
+        padding: 0;
+    }
+    .inner-container
+    {
+       width: 100%;
+    }
+}
